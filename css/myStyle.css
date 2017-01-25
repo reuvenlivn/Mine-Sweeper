@@ -1,0 +1,131 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading{
+  
+    /*width: 50%;
+    height: 10%;
+    margin: auto;
+    border: 1px solid red;
+    float: center;
+    font-size:1.1em;*/
+
+    position: fixed;
+    right: 10px;
+    float: top;
+    margin-top: 10px;
+}
+
+.heading div {
+    display: inline-block;
+    height: 50%;   
+    /*margin :  10px 30px 10px 10px  ;*/
+    background: lightskyblue;
+    border: 1px solid black;
+}
+
+.easy , .medium , .hard{
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 1em;
+    float: center;
+/*
+
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    background: lightskyblue;
+    text-align: center;
+    user-select: none;*/
+}
+
+.messages{
+  width: 100%;
+  height: 5%;
+  /*border: 1px solid red;*/
+  float: center;
+}
+
+.messages div{
+    display: inline-block;
+    font-size:1.1em; 
+    margin :  10px 30px 10px 10px  ;
+    background: white;
+}
+
+.userMsg {
+    font-size:1.2em;    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.suspected {
+    /*border: 3px solid red;*/
+    color: red;
+    width: 40px;
+    height:40px;
+    text-align: center;
+}
+
+.show {
+    background-color: darkorange;
+    width: 40px;
+    height:40px;
+    text-align: center;
+}
+
+.hide {
+    border: 2px solid blue;
+    background-color: lightgray;
+    width: 40px;
+    height:40px;
+    text-align: center;
+}
+
+.tdcell {
+    width: 40px;
+    height:40px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.gameBoard {
+    font-size:1.6em;
+}
+
+.gameBoard td {
+    width: 30px;
+    height:30px;
+    text-align: center;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 250px;
+    background: white;
+    border-spacing: 0px;
+}
+
+.restart {
+    padding: 15px 32px;
+    font-size: 1.5em;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    width: 100%;
+    /*overflow:hidden;*/
+}

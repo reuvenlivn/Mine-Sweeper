@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Mine Sweeper</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+
+<body onload="initGame()">
+    <h1>Mine Sweeper</h1>
+    <h3><div class="userMsg">Enjoy the game!</div> </h3>            
+     <div class="messages">
+        <div>Time: <span id="spanTimer"></span></div>
+        <div>Marked Cells: <span id="spanNextNum"></span></div>
+    </div>
+    <div class="heading">
+        <div class="LevelButtons">
+            <button type="button" class="easy" onclick="setLevel(this)">Easy</button> 
+            <button type="button" class="medium" onclick="setLevel(this)">Medium</button> 
+            <button type="button" class="hard" onclick="setLevel(this)">Hard</button>                
+        </div>
+   
+    </div>
+
+
+    <!--<div>
+        <h3 class="userMsg">Enjoy the game! </h3> 
+        <h3>marked cells: <span id="spanNextNum"></span> </h3>
+        <h3>Time: <span id="spanTimer"></span> </h3>
+    </div>-->
+    <table border="1">
+        <tbody class="gameBoard"></tbody>
+    </table>
+
+    <button class="restart" onclick="initGame()">Restart Game</button>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
